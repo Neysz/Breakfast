@@ -1,0 +1,389 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #f2f2f2;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 66px ;
+    gap: 16px;
+}
+
+header h1 {
+    margin: 0 24px 0 0;
+    color: #333;
+    font-family: 'Courier Prime', monospace;
+    font-size: 18px;
+    text-align: left;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex; /* Display navigation items in a row */
+    gap: 80px;
+}
+
+.right-buttons {
+    display: flex;
+    gap: 16px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #ffae42;
+}
+
+.cta-btn {
+    padding: 10px 20px;
+    border: 2px solid #000;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.cta-btn:hover {
+    background-color: #ffae42;
+    color: #000;
+}
+
+.cta-btn.yellow {
+    background-color: #ffae42;
+    color: #000;
+    border-color: #ffae42;
+}
+
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.banner {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 24px;
+}
+
+
+.column {
+    width: calc((100% - 12px - 24px) / 4); 
+    display: flex;
+    flex-direction: column; 
+}
+
+.box1  {
+    width: 100%;
+    background-image: url(https://assets.epicurious.com/photos/5d6553694a334900095c0ff7/1:1/w_2560%2Cc_limit/sweet-potato-breakfast-bowls-recipe-HC-082719.jpg);
+    background-size: cover;
+    background-color: darkkhaki;
+    margin-bottom: 12px; 
+}
+
+.box2a  {
+    width: 100%;
+    background-image: url(https://resize.indiatvnews.com/en/resize/newbucket/1200_-/2023/05/resizebreakfast-1683090173.jpg);
+    background-size: cover;
+    background-color: darkkhaki;
+    margin-bottom: 12px; 
+}
+
+.box2b  {
+    width: 100%;
+    background-image: url(https://d9hyo6bif16lx.cloudfront.net/live/img/production/detail/menu/breakfast_breakfast-classics_big-two-do-breakfast.jpg);
+    background-size: cover;
+    background-color: darkkhaki;
+    margin-bottom: 12px; 
+}
+
+.box3  {
+    width: 100%;
+    background-image: url(https://assets.epicurious.com/photos/5c4b7ab537d8ef4605419f1d/1:1/w_2560%2Cc_limit/St.-Patricks-Day-Breakfast-Hash-012319.jpg);
+    background-size: cover;
+    background-color: darkkhaki;
+    margin-bottom: 12px; 
+}
+
+.box4a  {
+    width: 100%;
+    background-image: url(https://www.australianeggs.org.au/assets/recipes/Egg-trout-croissant-0192-prv.jpg);
+    background-size: cover;
+    background-color: darkkhaki;
+    margin-bottom: 12px; 
+}
+
+.box4b  {
+    width: 100%;
+    background-image: url(https://www.tastingtable.com/img/gallery/breakfast-recipes/l-intro-1651937325.jpg);
+    background-size: cover;
+    background-color: darkkhaki;
+    margin-bottom: 12px; 
+}
+
+.box {
+    width: 100%;
+    background-color: darkkhaki;
+    margin-bottom: 12px; 
+}
+
+.bannertxt {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 24px;
+}
+
+.banner-text {
+    position: relative;
+    margin-top: 120px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #000;
+}
+
+.banner-text h2 {
+    margin-top: 0px;
+    font-size: 36px;
+    text-align: center;
+}
+
+.banner-text p {
+    font-size: 20px;
+}
+
+.banner-btn {
+    display: inline-flex;
+    background-color: #ffae42;
+    color: #fff;
+    margin-top: 24px;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.banner-btn:hover {
+    background-color: #ff7b00;
+}
+
+
+***********
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.best-places {
+    background-color: #719152; 
+    padding: 24px 0;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title {
+    margin-bottom: 20px;
+}
+
+.title h2 {
+    font-size: 36px;
+    margin: 12px;
+}
+
+.title h3 {
+    font-size: 20px;
+    margin: 0;
+}
+
+.boxes {
+    display: flex;
+    margin: 0 24px;
+    max-width: 1200px; 
+    gap: 24px;
+}
+
+
+.box {
+    margin-bottom: 24px;
+    background-color: #fff; 
+    padding: 20px;
+    text-align: center;
+}
+
+.box:hover {
+    background-color: cornsilk ;
+}
+
+.box .image-placeholder1 {
+    
+    height: 200px;
+    background-image: url(https://scontent-yyz1-1.xx.fbcdn.net/v/t39.30808-6/272168715_5035583856465246_6254226667656984463_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=5f2048&_nc_ohc=hWZcKhz3DyUQ7kNvgHItOti&_nc_ht=scontent-yyz1-1.xx&oh=00_AfB7bKZ4wob9RZ8Nkh2H9xINVQiNXhoI-O-FjObGD8_njw&oe=6639C4A7);
+    background-size: cover;
+    background-color: yellow; 
+    margin-bottom: 12px;
+}
+
+
+.box .image-placeholder2 {
+    height: 200px;
+    background-image: url(https://tb-static.uber.com/prod/image-proc/processed_images/b8aafe4875effbaf8da4ee77dd7f3ca7/aa13fff7e2466014ca51307be81e7738.jpeg);
+    background-size: cover;
+    background-color: yellow; 
+    margin-bottom: 12px;
+}
+
+.box .image-placeholder3 {
+    height: 200px;
+    background-image: url(https://scontent-yyz1-1.xx.fbcdn.net/v/t39.30808-6/344064759_2135910173265137_5578150163011071661_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=5f2048&_nc_ohc=rzPypWf_TvAQ7kNvgH_goQZ&_nc_ht=scontent-yyz1-1.xx&oh=00_AfD6jcJ8WdeRG-w0Rg861SNH_jsVCPnKisro1pe8bLEtyw&oe=6639B6CA);
+    background-size: cover;
+    background-color: yellow; 
+    margin-bottom: 12px;
+}
+
+.box .image-placeholder4 {
+    height: 200px;
+    background-image: url(https://scontent-yyz1-1.xx.fbcdn.net/v/t39.30808-6/241383327_4489609901103288_1053178104153747780_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=5f2048&_nc_ohc=w5I5kBuqHrUQ7kNvgGcobb8&_nc_oc=AdgboWyF4m705mVvcNcpq_9kpMhaBgHRfvAaAaNUM4Olm0zjQu3U_PnxRuR1TgUeY4M&_nc_ht=scontent-yyz1-1.xx&oh=00_AfB9GrcD0ZS0LkUMycRRyHFeCuy-Q3bhHjDSnwvXG11ZiQ&oe=6639CC69);
+    background-size: cover;
+    background-color: yellow; 
+    margin-bottom: 12px;
+}
+
+.box .image-placeholder5 {
+    height: 200px;
+    background-image: url(https://resizer.otstatic.com/v2/photos/wide-huge/2/61381329.jpg);
+    background-size: cover;
+    background-color: yellow; 
+    margin-bottom: 12px;
+}
+
+.box .image-placeholder6 {
+    height: 200px;
+    background-image: url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgZQTWGzKB406duoDxDoRZZjbxiEYQ6aPlnsKcPVfb0XIae_zowpdNHdHdBn6miwkfTDgzXv-KKkmXgZXAyMYBl_OjEcGWDY-lnvt5saPbdhimgEfh-ccWKCXgAmxqBUd5jCEaztMOkejc/s1600/Big+Breakfast.jpg);
+    background-size: cover;
+    background-color: yellow; 
+    margin-bottom: 12px;
+}
+
+.box h4 {
+    font-weight: bold;
+}
+
+.box p {
+    margin: 0;
+}
+
+
+/*For why? */
+
+.breakfast-section {
+    background-color: #719152;
+    text-align: center;
+    padding: 50px 0;
+}
+
+.container {
+    max-width: 888px;
+    margin: 0 auto;
+}
+
+.breakfast-section h2 {
+    font-size: 36px;
+    margin-top: 24px;
+    margin-bottom: 36px;
+    color:#f2f2f2;
+}
+
+.text-box p {
+    background-color: #f2f2f2;
+    color: #000;
+    line-height: 36px;
+    font-size: 20px;
+    text-align: center;
+    padding: 60px 120px 60px 120px
+
+    ;
+}
+
+.highlight {
+    transition: color 0.3s ease;
+    font-family: "Jacquard 24", system-ui;
+    font-size: 36px;
+    font-weight: 400;
+    font-style: normal
+}
+
+.highlight:hover {
+    color: red;
+}
+
+.story-section {
+    background-color: #fff;
+    text-align: center;
+    padding: 50px 0;
+}
+
+.story-section h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.image-box {
+    width: 600;
+    height: 400px;
+    background-image: url(https://scontent-yyz1-1.xx.fbcdn.net/v/t31.18172-8/976786_820401047988557_7628920100181718508_o.jpg?_nc_cat=111&ccb=1-7&_nc_sid=5f2048&_nc_ohc=P1_39op_-v0Q7kNvgHpAWqH&_nc_ht=scontent-yyz1-1.xx&oh=00_AfD-MES9A_unHOdFOxFuMm41Fr07L_Vig6z3sgN5rtfDtw&oe=665BCDB1);
+    background-size: cover;
+    background-color: green;
+    margin: 0 auto;
+    transition: background-color 0.3s ease;
+}
+
+.image-box:hover {
+    background-image: url(https://i.ytimg.com/vi/NC5f8drViGw/maxresdefault.jpg);
+    background-size: cover;
+    background-color: yellow;
+
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+/* For smartphones */
+@media only screen and (max-width: 768px) {
+    header {
+        flex-direction: column; 
+        padding: 32px auto;
+    }
+    .boxes {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+}
+.box {
+    padding: 0px;
+}
+.box p {
+    padding: 0px 24px 32px;
+}
+}
